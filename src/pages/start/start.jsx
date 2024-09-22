@@ -11,7 +11,7 @@ const Start = () => {
 
     useEffect(() => {
         let data = getWorkers();
-        console.log(data);
+        // console.log(data);
         setWorkers(data);
         setWorkersAux(data);
     }, []);
@@ -32,9 +32,9 @@ const Start = () => {
         }else{
             let searchWorkers = [];
             workersAux.map(e => {
-                console.log(e.nombre.toLowerCase(),input.target.value.toLowerCase());
+                // console.log(e.nombre.toLowerCase(),input.target.value.toLowerCase());
                 if(e.nombre.toLowerCase().includes(input.target.value.toLowerCase())){
-                    console.log('Entra');
+                    // console.log('Entra');
                     searchWorkers.push(e);
                 }
             });

@@ -1,0 +1,13 @@
+.container-worker{
+    width: '100%';
+     display: 'flex';
+    justify-content: 'center';
+    margin: '20px auto';
+}
+
+.container-imagen-worker{
+    width: '80%';
+    margin: 10;
+    border: 'solid 1px #fefefe';
+    border-radius: '20px'
+}

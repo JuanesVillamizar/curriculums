@@ -1,10 +1,11 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { WorkerContext } from "../../context/workersContext";
+import AccordionComponent from "../../components/Accordion";
 
 
 export default function Worker() {
-  const {getWorkerById, getWorkers} = useContext(WorkerContext);
+  const { getWorkerById, getWorkers } = useContext(WorkerContext);
   const id = useParams().id;
   const [worker, setWorker] = useState([]);
   let color = '#000';
@@ -13,7 +14,7 @@ export default function Worker() {
     // let data = getWorkerById(id);
     let dataWorkers = getWorkers();
     let data = dataWorkers.filter(worker => worker.id == id)[0];
-    // console.log('Prueba -> ', dataWorkers, data);
+    // console.log('Trabajador -> ', data);
     color = generateColor();
     setWorker(data);
     // this.setState({});
@@ -29,14 +30,31 @@ export default function Worker() {
   }
 
   return (
-    <div style={{ width: '100%', display: 'flex', justifyContent: 'center', margin: '20px auto' }}>
-      
-      <div className="container-fluid" style={{ width: '80%', margin: 10, border: 'solid 1px #fefefe', borderRadius: '20px' }}>
-        <div className='container-img' style={{ backgroundColor: color }}>
-            <span>270 x 150</span>
-        </div>
-        <div>
-
+    <div className="container-worker">
+      <div className="container-fluid container-imagen-worker">
+        <div className="row">
+          <div className="col-12 col-md-4">
+            <div className='container-img' style={{ backgroundColor: color }}>
+              {/* <span>270 x 150</span> */}
+            </div>
+            <div className="text-center">
+              <span className="fs-2">{worker.nombre}</span>
+            </div>
+            <div className="text-center">
+              <span className="fs-4">{worker.puesto_aplicado}</span>
+              <div/>
+              <span className="fs-7">{worker.informacion_contacto.correo_electronico}</span>
+              <div/>
+              <span className="fs-7">{worker.informacion_contacto.telefono}</span>
+              <div/>
+              <span className="fs-7">{worker.informacion_contacto.direccion}</span>
+              <div/>
+              <span className="fs-7">{worker.informacion_contacto.linkedin}</span>
+            </div>
+          </div>
+          <div className="col-12 col-md-8 py-3">
+            <AccordionComponent worker={worker}/>
+          </div>
         </div>
       </div>
     </div>

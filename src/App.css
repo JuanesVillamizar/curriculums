@@ -70,3 +70,32 @@
   font-weight: 700;
   color: #f0f0f0;
 }
+
+.input-search{
+  border: none;
+}
+.input-search:focus {
+  outline: none; /* Elimina el contorno predeterminado */
+  border: none;   /* Elimina el borde cuando está enfocado */
+}
+.container-div-search{
+  border: 1px solid #757575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.starts-container{
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  width: 100%;
+  gap: 10;
+  justify-content: center;
+}

@@ -8,17 +8,17 @@ export default function Worker() {
   const { getWorkerById, getWorkers } = useContext(WorkerContext);
   const id = useParams().id;
   const [worker, setWorker] = useState([]);
-  let color = '#000';
+  const [color, setColor] = useState('#f0f0f0');
 
   useEffect(() => {
     // let data = getWorkerById(id);
     let dataWorkers = getWorkers();
     let data = dataWorkers.filter(worker => worker.id == id)[0];
     // console.log('Trabajador -> ', data);
-    color = generateColor();
+    setColor(generateColor());
     setWorker(data);
     // this.setState({});
-  }, [color]);
+  }, []);
 
   let generateColor = () => {
     // Genera un número aleatorio entre 0 y 0xFFFFFF (16777215)
@@ -27,6 +27,20 @@ export default function Worker() {
     const colorHex = color.toString(16);
     // Asegura que la cadena tenga 6 caracteres (rellena con ceros si es necesario)
     return `#${colorHex.padStart(6, '0')}`;
+  }
+
+  let getDataCabecera = () => {
+    return <>
+      <span className="fs-4">{worker.puesto_aplicado}</span>
+      <div/>
+      <span className="fs-7">{worker.informacion_contacto.correo_electronico ?? ''}</span>
+      <div/>
+      <span className="fs-7">{worker.informacion_contacto.telefono ?? ''}</span>
+      <div/>
+      <span className="fs-7">{worker.informacion_contacto.direccion ?? ''}</span>
+      <div/>
+      <span className="fs-7">{worker.informacion_contacto.linkedin ?? ''}</span>
+    </>
   }
 
   return (
@@ -41,15 +55,8 @@ export default function Worker() {
               <span className="fs-2">{worker.nombre}</span>
             </div>
             <div className="text-center">
-              <span className="fs-4">{worker.puesto_aplicado}</span>
-              <div/>
-              <span className="fs-7">{worker.informacion_contacto.correo_electronico}</span>
-              <div/>
-              <span className="fs-7">{worker.informacion_contacto.telefono}</span>
-              <div/>
-              <span className="fs-7">{worker.informacion_contacto.direccion}</span>
-              <div/>
-              <span className="fs-7">{worker.informacion_contacto.linkedin}</span>
+              { worker.informacion_contacto != null ? getDataCabecera() : ''}
+              
             </div>
           </div>
           <div className="col-12 col-md-8 py-3">

@@ -14,7 +14,7 @@ const Start = () => {
         // console.log(data);
         setWorkers(data);
         setWorkersAux(data);
-    }, []);
+    });
 
     let generateColor = () => {
         // Genera un número aleatorio entre 0 y 0xFFFFFF (16777215)

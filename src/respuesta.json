@@ -2,111 +2,6 @@
     "status": 200,
     "response": [
         {
-            "id": 0,
-            "nombre": "Juan Pérez",
-            "puesto_aplicado": "Desarrollador de Software",
-            "informacion_contacto": {
-                "correo_electronico": "juan.perez@example.com",
-                "telefono": "+52 55 1234 5678",
-                "direccion": "Calle Falsa 123, Ciudad de México, México"
-            },
-            "experiencia": [
-                {
-                    "empresa": "Tech Solutions",
-                    "puesto": "Desarrollador Junior",
-                    "duracion": "2 años",
-                    "responsabilidades": [
-                        "Desarrollo de aplicaciones web utilizando JavaScript y HTML5.",
-                        "Mantenimiento de bases de datos SQL.",
-                        "Soporte técnico y resolución de problemas para usuarios internos."
-                    ],
-                    "logros": [
-                        "Mejoró la eficiencia del sistema de gestión interna en un 15%.",
-                        "Redujo el tiempo de carga de la aplicación principal en un 30%."
-                    ]
-                },
-                {
-                    "empresa": "Innovatech",
-                    "puesto": "Desarrollador",
-                    "duracion": "3 años",
-                    "responsabilidades": [
-                        "Diseño y desarrollo de aplicaciones usando React y Node.js.",
-                        "Implementación de servicios RESTful y APIs.",
-                        "Colaboración con el equipo de UX/UI para mejorar la experiencia del usuario."
-                    ],
-                    "logros": [
-                        "Lideró el desarrollo de una nueva plataforma que aumentó las ventas en un 20%.",
-                        "Automatizó procesos clave que ahorraron 100 horas de trabajo al mes."
-                    ]
-                }
-            ],
-            "habilidades": [
-                {
-                    "habilidad": "JavaScript",
-                    "nivel": "Avanzado",
-                    "años_experiencia": 5
-                },
-                {
-                    "habilidad": "Python",
-                    "nivel": "Intermedio",
-                    "años_experiencia": 4
-                },
-                {
-                    "habilidad": "SQL",
-                    "nivel": "Avanzado",
-                    "años_experiencia": 5
-                },
-                {
-                    "habilidad": "React",
-                    "nivel": "Avanzado",
-                    "años_experiencia": 3
-                }
-            ],
-            "educacion": {
-                "grado": "Ingeniería en Computación",
-                "institucion": "Universidad Nacional",
-                "ano_graduacion": 2016,
-                "logros_academicos": [
-                    "Graduado con honores.",
-                    "Miembro del equipo de programación competitivo."
-                ]
-            },
-            "certificaciones": [
-                {
-                    "certificacion": "Certified JavaScript Developer",
-                    "institucion": "JavaScript Institute",
-                    "ano_obtencion": 2017
-                },
-                {
-                    "certificacion": "AWS Certified Solutions Architect",
-                    "institucion": "Amazon Web Services",
-                    "ano_obtencion": 2019
-                }
-            ],
-            "idiomas": [
-                {
-                    "idioma": "Español",
-                    "nivel": "Nativo"
-                },
-                {
-                    "idioma": "Inglés",
-                    "nivel": "Avanzado"
-                }
-            ],
-            "referencias": [
-                {
-                    "nombre": "Carlos López",
-                    "relacion": "Supervisor en Tech Solutions",
-                    "contacto": "carlos.lopez@example.com"
-                },
-                {
-                    "nombre": "Ana García",
-                    "relacion": "Colega en Innovatech",
-                    "contacto": "ana.garcia@example.com"
-                }
-            ]
-        },
-        {
             "id": 1,
             "nombre": "María Gómez",
             "puesto_aplicado": "Gerente de Proyectos",
@@ -150,33 +45,35 @@
                 {
                     "habilidad": "Gestión de Proyectos",
                     "nivel": "Avanzado",
-                    "años_experiencia": 5
+                    "anios_experiencia": 5
                 },
                 {
                     "habilidad": "Metodologías Ágiles (Scrum, Kanban)",
-                    "nivel": "Avanzado",
-                    "años_experiencia": 4
+                    "nivel": "Bajo",
+                    "anios_experiencia": 4
                 },
                 {
                     "habilidad": "Microsoft Project",
                     "nivel": "Intermedio",
-                    "años_experiencia": 3
+                    "anios_experiencia": 3
                 },
                 {
                     "habilidad": "Gestión de Riesgos",
                     "nivel": "Avanzado",
-                    "años_experiencia": 5
+                    "anios_experiencia": 5
                 }
             ],
-            "educacion": {
-                "grado": "Licenciatura en Administración de Empresas",
-                "institucion": "Universidad Complutense de Madrid",
-                "ano_graduacion": 2015,
-                "logros_academicos": [
-                    "Premio al Mejor Proyecto de Fin de Grado.",
-                    "Becaria de Excelencia durante tres años consecutivos."
-                ]
-            },
+            "educacion": [
+                {
+                    "grado": "Licenciatura en Administración de Empresas",
+                    "institucion": "Universidad Complutense de Madrid",
+                    "ano_graduacion": 2015,
+                    "logros_academicos": [
+                        "Premio al Mejor Proyecto de Fin de Grado.",
+                        "Becaria de Excelencia durante tres años consecutivos."
+                    ]
+                }
+            ],
             "certificaciones": [
                 {
                     "certificacion": "Project Management Professional (PMP)",
@@ -192,7 +89,7 @@
             "idiomas": [
                 {
                     "idioma": "Español",
-                    "nivel": "Nativo"
+                    "nivel": "Avanzado"
                 },
                 {
                     "idioma": "Inglés",
@@ -219,700 +116,243 @@
                 "Transformación Digital",
                 "Desarrollo de Liderazgo",
                 "Metodologías de Innovación"
-            ],
-            "disponibilidad": {
-                "inmediata": false,
-                "meses_preaviso": 2
-            },
-            "expectativas_salariales": {
-                "salario_anual": "60,000 - 70,000 EUR",
-                "beneficios_deseados": [
-                    "Seguro médico privado",
-                    "Opciones de trabajo remoto",
-                    "Bonos por desempeño"
-                ]
-            }
+            ]
         },
         {
             "id": 2,
-            "nombre": "Carlos Ramírez",
-            "puesto_aplicado": "Ingeniero de Redes",
+            "nombre": "Juan Esteban Villamizar Sierra",
+            "puesto_aplicado": "Desarrollador Full Stack",
             "informacion_contacto": {
-                "correo_electronico": "carlos.ramirez@example.com",
-                "telefono": "+1 305 678 1234",
-                "direccion": "Miami, FL, USA"
+                "correo_electronico": "juanes@gm.com",
+                "telefono": "+57 310 311 32 33",
+                "direccion": "Avenida Principal 456, Madrid, España",
+                "linkedin": "https://www.linkedin.com/in/juanes/"
             },
             "experiencia": [
                 {
-                    "empresa": "NetTech Solutions",
-                    "puesto": "Ingeniero de Redes",
-                    "duracion": "4 años",
+                    "empresa": "Electronicas VTR",
+                    "puesto": "Desarrollador",
+                    "duracion": "1 años",
                     "responsabilidades": [
-                        "Diseño e implementación de redes LAN/WAN.",
-                        "Gestión de servidores y switches.",
-                        "Monitoreo de tráfico y seguridad en redes."
+                        "Desarrollar modulos del sistema de la empresa.",
+                        "Coordinar desarrollos.",
+                        "Administrar base de datos."
                     ],
                     "logros": [
-                        "Redujo los tiempos de inactividad de la red en un 40%.",
-                        "Implementó medidas de seguridad que previnieron ataques cibernéticos."
+                        "Lideró un proyecto de integracion continua.",
+                        "Mejoró la satisfacción del cliente en un 25% a través de una gestión eficiente de recursos."
                     ]
                 },
                 {
-                    "empresa": "ConnectIT",
-                    "puesto": "Asistente de Ingeniero de Redes",
-                    "duracion": "2 años",
+                    "empresa": "Diez x",
+                    "puesto": "Programador laravel",
+                    "duracion": "1 años",
                     "responsabilidades": [
-                        "Asistencia en la configuración de routers y firewalls.",
-                        "Soporte técnico en problemas de conectividad.",
-                        "Documentación de la infraestructura de red."
+                        "Asistencia en la planificación y seguimiento de proyectos de tecnología.",
+                        "Creación de reportes de estado y documentación de proyectos."
                     ],
                     "logros": [
-                        "Optimizó el rendimiento de la red en un 20% mediante ajustes en la configuración.",
-                        "Estableció un protocolo de respuesta rápida ante incidencias críticas."
+                        "Desarrolló una plantilla de informes de estado que mejoró la comunicación con clientes.",
+                        "Contribuyó a la entrega exitosa de un proyecto de transformación digital para un cliente clave.",
+                        "Logro un cambio significativo en la forma de ver el sistema del cliente."
+                    ]
+                },
+                {
+                    "empresa": "Smartdici",
+                    "puesto": "Programador Full Stack",
+                    "duracion": "1 años",
+                    "responsabilidades": [
+                        "Desarrollo de interfaces de usuario (front-end).",
+                        "Desarrollo del servidor y bases de datos (back-end).",
+                        "Integración de sistemas y servicios externos.",
+                        "Pruebas y depuración.",
+                        "Mantenimiento y escalabilidad."
+                    ],
+                    "logros": [
+                        "Despliegue exitoso de una aplicación web completa.",
+                        "Optimización del rendimiento de una aplicación.",
+                        "Automatización de procesos de desarrollo.",
+                        "Implementación de microservicios",
+                        "Contribuciones a proyectos de código abierto"
                     ]
                 }
             ],
             "habilidades": [
-                "Cisco Networking",
-                "Firewall Configuration",
-                "Network Security",
-                "Troubleshooting"
+                {
+                    "habilidad": "Gestión de Proyectos",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Metodologías Ágiles (Scrum, Kanban)",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Docker",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 2
+                },
+                {
+                    "habilidad": "Microsoft Project",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "PHP",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 6
+                },
+                {
+                    "habilidad": "JAVA",
+                    "nivel": "Bajo",
+                    "anios_experiencia": 2
+                },
+                {
+                    "habilidad": "DART",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "JS",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 6
+                },
+                {
+                    "habilidad": "CSS",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 6
+                },
+                {
+                    "habilidad": "HTML",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 6
+                },
+                {
+                    "habilidad": "React js",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Angular js",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Node js",
+                    "nivel": "Bajo",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Express js",
+                    "nivel": "Bajo",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Flutter",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Postgree SQL",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "MySQL",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 6
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Tecnica en desarrollo de software con PHP",
+                    "institucion": "Institucion Metropolitana de Educacion IME",
+                    "ano_graduacion": 2017,
+                    "logros_academicos": [
+                        "Premio al Mejor Proyecto de Fin de Grado."
+                    ]
+                },
+                {
+                    "grado": "Ing. en desarrollo de software",
+                    "institucion": "Institucion Universitaria Pascual Bravo",
+                    "ano_graduacion": 2030,
+                    "logros_academicos": [
+                        "No desistir XD"
+                    ]
+                }
             ],
             "certificaciones": [
                 {
-                    "certificacion": "Cisco Certified Network Associate (CCNA)",
-                    "institucion": "Cisco",
-                    "ano_obtencion": 2020
-                },
-                {
-                    "certificacion": "Certified Information Systems Security Professional (CISSP)",
-                    "institucion": "ISC2",
-                    "ano_obtencion": 2022
-                }
-            ],
-            "idiomas": [
-                "Inglés",
-                "Español"
-            ]
-        },
-        {
-            "id": 3,
-            "nombre": "Lucía Morales",
-            "puesto_aplicado": "Diseñadora Gráfica",
-            "informacion_contacto": {
-                "correo_electronico": "lucia.morales@example.com",
-                "telefono": "+34 91 234 5678",
-                "direccion": "Barcelona, España",
-                "portafolio": "https://www.behance.net/luciamorales"
-            },
-            "experiencia": [
-                {
-                    "empresa": "Creativa Studio",
-                    "puesto": "Diseñadora Gráfica",
-                    "duracion": "5 años",
-                    "responsabilidades": [
-                        "Diseño de materiales de marketing visual.",
-                        "Desarrollo de identidades de marca.",
-                        "Colaboración con equipos de marketing para campañas publicitarias."
-                    ],
-                    "logros": [
-                        "Ganadora del premio de diseño AWWWARDS por diseño web.",
-                        "Lideró la renovación de la imagen corporativa de 10 clientes principales."
-                    ]
-                },
-                {
-                    "empresa": "Graphix Studio",
-                    "puesto": "Asistente de Diseño",
-                    "duracion": "2 años",
-                    "responsabilidades": [
-                        "Creación de bocetos y maquetas para proyectos.",
-                        "Apoyo en la elaboración de presentaciones visuales.",
-                        "Edición de imágenes y contenido gráfico."
-                    ],
-                    "logros": [
-                        "Aportó en la creación de 50+ campañas gráficas exitosas.",
-                        "Mejoró la eficiencia del equipo implementando nuevas herramientas de diseño."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "Adobe Creative Suite",
-                "Illustrator",
-                "Photoshop",
-                "InDesign",
-                "Branding"
-            ],
-            "educacion": {
-                "grado": "Licenciatura en Diseño Gráfico",
-                "institucion": "Universidad de Barcelona",
-                "ano_graduacion": 2017
-            },
-            "idiomas": [
-                "Español",
-                "Catalán",
-                "Inglés"
-            ]
-        },
-        {
-            "id": 4,
-            "nombre": "Andrés Rodríguez",
-            "puesto_aplicado": "Analista de Datos",
-            "informacion_contacto": {
-                "correo_electronico": "andres.rodriguez@example.com",
-                "telefono": "+52 55 9876 5432",
-                "direccion": "Ciudad de México, México"
-            },
-            "experiencia": [
-                {
-                    "empresa": "DataCorp",
-                    "puesto": "Analista de Datos",
-                    "duracion": "3 años",
-                    "responsabilidades": [
-                        "Análisis de grandes volúmenes de datos para identificar tendencias.",
-                        "Desarrollo de dashboards en Power BI.",
-                        "Colaboración con equipos de marketing para análisis de campañas."
-                    ],
-                    "logros": [
-                        "Mejoró la precisión de predicciones de ventas en un 20%.",
-                        "Desarrolló un modelo de segmentación de clientes altamente efectivo."
-                    ]
-                },
-                {
-                    "empresa": "BigData Solutions",
-                    "puesto": "Asistente de Analista de Datos",
-                    "duracion": "2 años",
-                    "responsabilidades": [
-                        "Limpieza y preprocesamiento de datos.",
-                        "Creación de informes detallados.",
-                        "Soporte en la implementación de herramientas analíticas."
-                    ],
-                    "logros": [
-                        "Automatizó procesos de análisis, ahorrando 15 horas de trabajo semanal.",
-                        "Contribuyó al desarrollo de un informe de mercado clave para la empresa."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "SQL",
-                "Python",
-                "Power BI",
-                "Data Visualization",
-                "Estadística"
-            ],
-            "educacion": {
-                "grado": "Maestría en Ciencia de Datos",
-                "institucion": "Instituto Tecnológico de Monterrey",
-                "ano_graduacion": 2019
-            },
-            "certificaciones": [
-                {
-                    "certificacion": "Certified Data Analyst",
-                    "institucion": "Microsoft",
-                    "ano_obtencion": 2020
-                },
-                {
-                    "certificacion": "Google Data Analytics Professional Certificate",
-                    "institucion": "Google",
-                    "ano_obtencion": 2021
-                }
-            ],
-            "idiomas": [
-                "Español",
-                "Inglés"
-            ]
-        },
-        {
-            "id": 5,
-            "nombre": "Elena Martín",
-            "puesto_aplicado": "Especialista en Marketing Digital",
-            "informacion_contacto": {
-                "correo_electronico": "elena.martin@example.com",
-                "telefono": "+44 20 1234 5678",
-                "direccion": "Londres, Reino Unido"
-            },
-            "experiencia": [
-                {
-                    "empresa": "Digital Boost",
-                    "puesto": "Especialista en Marketing Digital",
-                    "duracion": "4 años",
-                    "responsabilidades": [
-                        "Gestión de campañas PPC en Google Ads y Facebook Ads.",
-                        "Optimización de estrategias de SEO.",
-                        "Creación de contenido para redes sociales y blogs."
-                    ],
-                    "logros": [
-                        "Aumentó el tráfico web en un 50% mediante estrategias SEO.",
-                        "Mejoró el ROI de campañas publicitarias en un 30%."
-                    ]
-                },
-                {
-                    "empresa": "AdWave",
-                    "puesto": "Asistente de Marketing",
-                    "duracion": "2 años",
-                    "responsabilidades": [
-                        "Asistencia en la creación de estrategias de marketing digital.",
-                        "Monitoreo y análisis de rendimiento de campañas.",
-                        "Manejo de la comunicación en redes sociales."
-                    ],
-                    "logros": [
-                        "Contribuyó al lanzamiento exitoso de una campaña de producto.",
-                        "Desarrolló una estrategia de contenido que incrementó el engagement en un 40%."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "Google Ads",
-                "Facebook Ads",
-                "SEO",
-                "Content Marketing",
-                "Google Analytics"
-            ],
-            "educacion": {
-                "grado": "Licenciatura en Marketing",
-                "institucion": "University College London",
-                "ano_graduacion": 2016
-            },
-            "certificaciones": [
-                {
-                    "certificacion": "Google Ads Certification",
-                    "institucion": "Google",
+                    "certificacion": "Desarrollo front-end",
+                    "institucion": "UDEMY",
                     "ano_obtencion": 2017
                 },
                 {
-                    "certificacion": "Facebook Blueprint Certification",
-                    "institucion": "Facebook",
+                    "certificacion": "Desarrollo backend",
+                    "institucion": "UDEMY",
                     "ano_obtencion": 2018
-                }
-            ],
-            "idiomas": [
-                "Inglés",
-                "Español"
-            ]
-        },
-        {
-            "id": 6,
-            "nombre": "Javier Sánchez",
-            "puesto_aplicado": "Consultor Financiero",
-            "informacion_contacto": {
-                "correo_electronico": "javier.sanchez@example.com",
-                "telefono": "+34 91 567 1234",
-                "direccion": "Madrid, España"
-            },
-            "experiencia": [
-                {
-                    "empresa": "FinConsulting",
-                    "puesto": "Consultor Financiero Senior",
-                    "duracion": "6 años",
-                    "responsabilidades": [
-                        "Asesoramiento financiero a empresas medianas y grandes.",
-                        "Elaboración de planes de negocio y proyecciones financieras.",
-                        "Análisis de riesgos y oportunidades de inversión."
-                    ],
-                    "logros": [
-                        "Asesoró en fusiones y adquisiciones que resultaron en un aumento del valor de las empresas involucradas.",
-                        "Ayudó a reducir costes operativos en un 20% a través de la reestructuración financiera."
-                    ]
                 },
                 {
-                    "empresa": "MoneyMatters",
-                    "puesto": "Consultor Financiero Junior",
-                    "duracion": "3 años",
-                    "responsabilidades": [
-                        "Apoyo en la gestión de carteras de inversión.",
-                        "Realización de análisis financieros detallados.",
-                        "Preparación de informes para clientes."
-                    ],
-                    "logros": [
-                        "Contribuyó a la generación de un 15% de ROI en carteras de inversión.",
-                        "Desarrolló un modelo de análisis que mejoró la precisión de las proyecciones financieras."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "Análisis Financiero",
-                "Gestión de Carteras",
-                "Planificación Estratégica",
-                "Excel Avanzado",
-                "Modelado Financiero"
-            ],
-            "educacion": {
-                "grado": "Máster en Finanzas",
-                "institucion": "IE Business School",
-                "ano_graduacion": 2015
-            },
-            "certificaciones": [
-                {
-                    "certificacion": "Chartered Financial Analyst (CFA)",
-                    "institucion": "CFA Institute",
-                    "ano_obtencion": 2016
-                }
-            ],
-            "idiomas": [
-                "Español",
-                "Inglés"
-            ],
-            "intereses": [
-                "Mercados financieros",
-                "Inversiones sostenibles",
-                "Innovación financiera"
-            ]
-        },
-        {
-            "id": 7,
-            "nombre": "Sofía López",
-            "puesto_aplicado": "Desarrolladora Full Stack",
-            "informacion_contacto": {
-                "correo_electronico": "sofia.lopez@example.com",
-                "telefono": "+54 11 8765 4321",
-                "direccion": "Buenos Aires, Argentina"
-            },
-            "experiencia": [
-                {
-                    "empresa": "CodeFactory",
-                    "puesto": "Desarrolladora Full Stack",
-                    "duracion": "3 años",
-                    "responsabilidades": [
-                        "Desarrollo de aplicaciones web utilizando Node.js y React.",
-                        "Implementación de APIs RESTful y GraphQL.",
-                        "Colaboración con equipos de diseño y desarrollo para crear interfaces de usuario eficientes."
-                    ],
-                    "logros": [
-                        "Lideró la creación de una plataforma de e-commerce que aumentó las ventas en un 35%.",
-                        "Desarrolló una arquitectura escalable que soporta millones de usuarios mensuales."
-                    ]
+                    "certificacion": "Manejo de bases de datos relacionales",
+                    "institucion": "UDEMY",
+                    "ano_obtencion": 2019
                 },
                 {
-                    "empresa": "DevSolutions",
-                    "puesto": "Desarrolladora Front-End",
-                    "duracion": "2 años",
-                    "responsabilidades": [
-                        "Desarrollo de interfaces de usuario en React y Angular.",
-                        "Optimización del rendimiento de aplicaciones web.",
-                        "Testeo y depuración de código."
-                    ],
-                    "logros": [
-                        "Mejoró la velocidad de carga de la aplicación principal en un 25%.",
-                        "Implementó técnicas de optimización que redujeron el uso de recursos en un 15%."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "JavaScript",
-                "Node.js",
-                "React",
-                "GraphQL",
-                "MongoDB"
-            ],
-            "educacion": {
-                "grado": "Ingeniería en Sistemas de Información",
-                "institucion": "Universidad de Buenos Aires",
-                "ano_graduacion": 2018
-            },
-            "certificaciones": [
+                    "certificacion": "Manejo de bases de datos no relacionales",
+                    "institucion": "UDEMY",
+                    "ano_obtencion": 2019
+                },
                 {
-                    "certificacion": "Full Stack Web Developer",
-                    "institucion": "Udemy",
+                    "certificacion": "Curso completo en React js de cero a experto",
+                    "institucion": "UDEMY",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "Curso completo en Angular js de cero a experto",
+                    "institucion": "UDEMY",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "Curso completo en Flutter de cero a experto",
+                    "institucion": "UDEMY",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "Curso completo en MERN de cero a experto",
+                    "institucion": "UDEMY",
                     "ano_obtencion": 2019
                 }
             ],
             "idiomas": [
-                "Español",
-                "Inglés"
-            ],
-            "proyectos_personales": [
                 {
-                    "nombre_proyecto": "Personal Portfolio",
-                    "descripcion": "Desarrollo de un portafolio personal que incluye proyectos de código abierto y experimentos en desarrollo web.",
-                    "url": "https://www.sofialopez.dev"
-                }
-            ]
-        },
-        {
-            "id": 8,
-            "nombre": "Ana Torres",
-            "puesto_aplicado": "Gerente de Recursos Humanos",
-            "informacion_contacto": {
-                "correo_electronico": "ana.torres@example.com",
-                "telefono": "+1 212 345 6789",
-                "direccion": "Nueva York, NY, USA"
-            },
-            "experiencia": [
-                {
-                    "empresa": "Global Talent Solutions",
-                    "puesto": "Gerente de Recursos Humanos",
-                    "duracion": "5 años",
-                    "responsabilidades": [
-                        "Supervisión de todas las operaciones de recursos humanos.",
-                        "Desarrollo e implementación de políticas de recursos humanos.",
-                        "Gestión de procesos de contratación y retención de talento."
-                    ],
-                    "logros": [
-                        "Redujo la tasa de rotación de empleados en un 20% mediante mejoras en la retención de talento.",
-                        "Implementó un sistema de evaluación de desempeño que mejoró la productividad en un 15%."
-                    ]
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
                 },
                 {
-                    "empresa": "TalentPlus",
-                    "puesto": "Coordinadora de Recursos Humanos",
-                    "duracion": "3 años",
-                    "responsabilidades": [
-                        "Apoyo en la planificación de recursos humanos.",
-                        "Gestión de beneficios y compensaciones.",
-                        "Desarrollo de programas de capacitación y desarrollo."
-                    ],
-                    "logros": [
-                        "Lideró la implementación de un programa de capacitación que mejoró las habilidades de los empleados en un 25%.",
-                        "Optimizó el proceso de reclutamiento, reduciendo los tiempos de contratación en un 30%."
-                    ]
+                    "idioma": "Inglés",
+                    "nivel": "Bajo"
                 }
             ],
-            "habilidades": [
-                "Gestión de Talento",
-                "Desarrollo Organizacional",
-                "Planificación Estratégica",
-                "Capacitación y Desarrollo",
-                "Relaciones Laborales"
-            ],
-            "educacion": {
-                "grado": "Máster en Gestión de Recursos Humanos",
-                "institucion": "New York University",
-                "ano_graduacion": 2016
-            },
-            "certificaciones": [
+            "referencias": [
                 {
-                    "certificacion": "Professional in Human Resources (PHR)",
-                    "institucion": "HR Certification Institute",
-                    "ano_obtencion": 2017
+                    "nombre": "Guillermo Chacon Florez",
+                    "relacion": "Gerente Electronicas VTR",
+                    "contacto": "gruillermo@vtr.com"
                 },
                 {
-                    "certificacion": "Senior Professional in Human Resources (SPHR)",
-                    "institucion": "HR Certification Institute",
-                    "ano_obtencion": 2019
+                    "nombre": "Juan Ramos",
+                    "relacion": "Gerente Smartdici",
+                    "contacto": "juan@smartdici.com"
                 }
-            ],
-            "idiomas": [
-                "Inglés",
-                "Español"
             ],
             "intereses": [
-                "Desarrollo de liderazgo",
-                "Diversidad e inclusión",
-                "Innovación en recursos humanos"
+                "Nuevas tecnologías y frameworks",
+                "Arquitectura de software",
+                "Desarrollo móvil",
+                "Seguridad en aplicaciones web",
+                "Desarrollo y optimización de APIs"
             ]
-        },
-        {
-            "id": 9,
-            "nombre": "Ricardo Díaz",
-            "puesto_aplicado": "Científico de Datos",
-            "informacion_contacto": {
-                "correo_electronico": "ricardo.diaz@example.com",
-                "telefono": "+57 1 234 5678",
-                "direccion": "Bogotá, Colombia"
-            },
-            "experiencia": [
-                {
-                    "empresa": "DataScienceLab",
-                    "puesto": "Científico de Datos",
-                    "duracion": "4 años",
-                    "responsabilidades": [
-                        "Desarrollo de modelos predictivos utilizando machine learning.",
-                        "Análisis de datos para la toma de decisiones estratégicas.",
-                        "Colaboración con equipos de ingeniería para implementar modelos en producción."
-                    ],
-                    "logros": [
-                        "Desarrolló un modelo de predicción de demanda que incrementó la precisión en un 25%.",
-                        "Lideró un proyecto de análisis de big data que redujo costos operativos en un 15%."
-                    ]
-                },
-                {
-                    "empresa": "AnalyticsHub",
-                    "puesto": "Analista de Datos",
-                    "duracion": "3 años",
-                    "responsabilidades": [
-                        "Análisis de grandes volúmenes de datos.",
-                        "Elaboración de informes y visualizaciones para stakeholders.",
-                        "Desarrollo de scripts en Python para la automatización de procesos analíticos."
-                    ],
-                    "logros": [
-                        "Mejoró la eficiencia en la generación de informes en un 40%.",
-                        "Automatizó procesos que redujeron el tiempo de análisis de datos en un 30%."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "Python",
-                "R",
-                "Machine Learning",
-                "Big Data",
-                "SQL"
-            ],
-            "educacion": {
-                "grado": "Maestría en Ciencia de Datos",
-                "institucion": "Universidad de los Andes",
-                "ano_graduacion": 2018
-            },
-            "certificaciones": [
-                {
-                    "certificacion": "Data Science Professional Certificate",
-                    "institucion": "HarvardX",
-                    "ano_obtencion": 2019
-                },
-                {
-                    "certificacion": "TensorFlow Developer Certificate",
-                    "institucion": "Google",
-                    "ano_obtencion": 2020
-                }
-            ],
-            "idiomas": [
-                "Español",
-                "Inglés"
-            ],
-            "proyectos_personales": [
-                {
-                    "nombre_proyecto": "Análisis de Sentimientos",
-                    "descripcion": "Desarrollo de un modelo de análisis de sentimientos utilizando datos de redes sociales para identificar tendencias de opinión pública.",
-                    "url": "https://github.com/ricardodiaz/sentiment-analysis"
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "nombre": "Gabriela Méndez",
-            "puesto_aplicado": "Arquitecta",
-            "informacion_contacto": {
-                "correo_electronico": "gabriela.mendez@example.com",
-                "telefono": "+56 2 8765 4321",
-                "direccion": "Santiago, Chile"
-            },
-            "experiencia": [
-                {
-                    "empresa": "ArchiDesign",
-                    "puesto": "Arquitecta",
-                    "duracion": "5 años",
-                    "responsabilidades": [
-                        "Diseño de planos arquitectónicos para proyectos residenciales y comerciales.",
-                        "Supervisión de obras de construcción.",
-                        "Coordinación con ingenieros y contratistas."
-                    ],
-                    "logros": [
-                        "Diseñó un complejo residencial de lujo que ganó un premio nacional de arquitectura.",
-                        "Supervisó la construcción de un edificio comercial que fue terminado antes del plazo y bajo presupuesto."
-                    ]
-                },
-                {
-                    "empresa": "UrbanStudio",
-                    "puesto": "Asistente de Arquitecta",
-                    "duracion": "2 años",
-                    "responsabilidades": [
-                        "Apoyo en la elaboración de planos y maquetas.",
-                        "Investigación de materiales y soluciones sostenibles.",
-                        "Colaboración en la redacción de propuestas de proyectos."
-                    ],
-                    "logros": [
-                        "Contribuyó al diseño de un proyecto de urbanización que fue seleccionado por una municipalidad local.",
-                        "Desarrolló una propuesta de diseño sostenible que redujo el consumo energético en un 20%."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "AutoCAD",
-                "Revit",
-                "SketchUp",
-                "Sustainable Design",
-                "Project Management"
-            ],
-            "educacion": {
-                "grado": "Licenciatura en Arquitectura",
-                "institucion": "Pontificia Universidad Católica de Chile",
-                "ano_graduacion": 2016
-            },
-            "certificaciones": [
-                {
-                    "certificacion": "LEED Green Associate",
-                    "institucion": "Green Building Certification Institute",
-                    "ano_obtencion": 2017
-                }
-            ],
-            "idiomas": [
-                "Español",
-                "Inglés"
-            ],
-            "intereses": [
-                "Diseño sostenible",
-                "Arquitectura contemporánea",
-                "Innovación en materiales de construcción"
-            ]
-        },
-        {
-            "id": 11,
-            "nombre": "Alejandro Castillo",
-            "puesto_aplicado": "Ingeniero de Software",
-            "informacion_contacto": {
-                "correo_electronico": "alejandro.castillo@example.com",
-                "telefono": "+1 415 876 5432",
-                "direccion": "San Francisco, CA, USA",
-                "linkedin": "https://www.linkedin.com/in/alejandrocastillo"
-            },
-            "experiencia": [
-                {
-                    "empresa": "TechInnovators",
-                    "puesto": "Ingeniero de Software Senior",
-                    "duracion": "4 años",
-                    "responsabilidades": [
-                        "Desarrollo de sistemas backend en Java y Spring.",
-                        "Diseño de arquitecturas de microservicios.",
-                        "Implementación de soluciones en la nube utilizando AWS."
-                    ],
-                    "logros": [
-                        "Desarrolló un sistema de procesamiento de datos en tiempo real que mejoró la eficiencia operativa en un 30%.",
-                        "Lideró la migración de aplicaciones a una arquitectura basada en microservicios, reduciendo los tiempos de despliegue en un 50%."
-                    ]
-                },
-                {
-                    "empresa": "DevWorks",
-                    "puesto": "Ingeniero de Software",
-                    "duracion": "3 años",
-                    "responsabilidades": [
-                        "Desarrollo de aplicaciones web en JavaScript y Angular.",
-                        "Optimización de bases de datos en MySQL.",
-                        "Colaboración con equipos de desarrollo para crear soluciones escalables."
-                    ],
-                    "logros": [
-                        "Mejoró el rendimiento de una aplicación web clave en un 40%.",
-                        "Redujo los costos de infraestructura mediante optimizaciones en el uso de la nube."
-                    ]
-                }
-            ],
-            "habilidades": [
-                "Java",
-                "Spring",
-                "AWS",
-                "Microservices",
-                "SQL"
-            ],
-            "educacion": {
-                "grado": "Ingeniería en Computación",
-                "institucion": "Universidad de Stanford",
-                "ano_graduacion": 2015
-            },
-            "certificaciones": [
-                {
-                    "certificacion": "AWS Certified Solutions Architect",
-                    "institucion": "Amazon Web Services",
-                    "ano_obtencion": 2018
-                }
-            ],
-            "idiomas": [
-                "Inglés",
-                "Español"
-            ],
-            "proyectos_personales": [
-                {
-                    "nombre_proyecto": "Sistema de Gestión de Tareas",
-                    "descripcion": "Desarrollo de una aplicación de gestión de tareas personal utilizando React y Node.js.",
-                    "url": "https://github.com/alejandrocastillo/task-manager"
-                }
-            ]
-        }                                                                                      
+        }
     ]
 }

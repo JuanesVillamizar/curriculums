@@ -60,7 +60,7 @@ export default function Worker() {
             </div>
           </div>
           <div className="col-12 col-md-8 py-3">
-            <AccordionComponent worker={worker}/>
+            { worker != null ? <AccordionComponent worker={worker}/> : <div></div> }
           </div>
         </div>
       </div>

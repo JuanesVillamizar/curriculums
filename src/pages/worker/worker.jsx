@@ -56,11 +56,10 @@ export default function Worker() {
             </div>
             <div className="text-center">
               { worker.informacion_contacto != null ? getDataCabecera() : ''}
-              
             </div>
           </div>
           <div className="col-12 col-md-8 py-3">
-            { worker != null ? <AccordionComponent worker={worker}/> : <div></div> }
+            { worker != null && worker ? <AccordionComponent worker={worker}/> : '' }
           </div>
         </div>
       </div>

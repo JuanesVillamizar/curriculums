@@ -31,13 +31,9 @@ function MainNavbar() {
                     </Nav>
                     <Form className="d-flex">
                         <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
-                            {/* <Nav.Link href="/">Inicio</Nav.Link>
-                            <Nav.Link href="/register">Registro</Nav.Link> */}
                             <Link to="/" className="nav-link">Inicio</Link>
                             <Link to="/register" className="nav-link">Registro</Link>
                         </Nav>
-                        {/* <input type="text" placeholder="Buscar..." className="me-2" style={{borderRadius: '10px', paddingLeft: '5px'}} onChange={handleChangeSearch} />
-                        <Button variant="outline-success" onClick={handleClickSearch}>Buscar</Button> */}
                     </Form>
                 </Navbar.Collapse>
             </Container>

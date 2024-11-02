@@ -14,7 +14,7 @@ const Start = () => {
         // console.log(data);
         setWorkers(data);
         setWorkersAux(data);
-    });
+    },[]);
 
     let generateColor = () => {
         // Genera un número aleatorio entre 0 y 0xFFFFFF (16777215)
@@ -25,13 +25,41 @@ const Start = () => {
         return `#${colorHex.padStart(6, '0')}`;
     }
 
+    // const _handleChangeSearch = (input) => {
+    //     // console.log(input.target.value);
+    //     // let data = workersAux.filter((worker) => worker.nombre.toLowerCase().includes(input.target.value.toLowerCase()));
+    //     // console.log('Data filtrada -> ', data);
+    //     // setWorkers(data);
+    //     // console.log(workers);
+    //     if(input.target.value !== ''){
+    //         let list = [];
+    //         workersAux.map((worker) => {
+    //             if(worker.nombre.includes(input.target.value)){
+    //                 list.push(worker);
+    //             }
+    //         });
+    //         console.log('Data filtrada en lista -> ', list);
+    //         setWorkers([]);
+    //         setTimeout(() => {
+    //             setWorkers(list);            
+    //         }, 100);
+    //     }else{
+    //         setWorkers(workersAux);
+    //     }
+    // }
+
     const _handleChangeSearch = (input) => {
-        // console.log(input.target.value);
-        let data = workersAux.filter((worker) => worker.nombre.toLowerCase().includes(input.target.value.toLowerCase()) || worker.puesto_aplicado.toLowerCase().includes(input.target.value.toLowerCase()));
-        console.log('Data filtrada -> ', data);
-        setWorkers(data);
-        console.log(workers);
-    }
+        const searchValue = input.target.value.toLowerCase();
+    
+        if (searchValue !== '') {
+            const filteredList = workersAux.filter((worker) => 
+                worker.nombre.toLowerCase().includes(searchValue)
+            );
+            setWorkers(filteredList);
+        } else {
+            setWorkers(workersAux);
+        }
+    };
 
     return (
         <div className="row">

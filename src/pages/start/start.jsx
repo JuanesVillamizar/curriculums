@@ -27,20 +27,10 @@ const Start = () => {
 
     const _handleChangeSearch = (input) => {
         // console.log(input.target.value);
-        if(input.target.value == ''){
-            setWorkers(workersAux);
-        }else{
-            let searchWorkers = [];
-            workersAux.map(e => {
-                // console.log(e.nombre.toLowerCase(),input.target.value.toLowerCase());
-                if(e.nombre.toLowerCase().includes(input.target.value.toLowerCase())){
-                    // console.log('Entra');
-                    searchWorkers.push(e);
-                }
-            });
-            // console.log(searchWorkers, workers, workersAux);
-            setWorkers(searchWorkers);
-        }
+        let data = workersAux.filter((worker) => worker.nombre.toLowerCase().includes(input.target.value.toLowerCase()) || worker.puesto_aplicado.toLowerCase().includes(input.target.value.toLowerCase()));
+        console.log('Data filtrada -> ', data);
+        setWorkers(data);
+        console.log(workers);
     }
 
     return (

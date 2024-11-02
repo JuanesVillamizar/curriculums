@@ -2,88 +2,92 @@
     "status": 200,
     "response": [
         {
-            "id": 1,
-            "nombre": "María Gómez",
-            "puesto_aplicado": "Gerente de Proyectos",
+            "id": 0,
+            "nombre": "Lucía Martínez Alvarado",
+            "puesto_aplicado": "Analista de Datos",
             "informacion_contacto": {
-                "correo_electronico": "maria.gomez@example.com",
-                "telefono": "+34 91 234 5678",
-                "direccion": "Avenida Principal 456, Madrid, España",
-                "linkedin": "https://www.linkedin.com/in/mariagomez/"
+                "correo_electronico": "lucia.martinez@example.com",
+                "telefono": "+34 678 123 456",
+                "direccion": "Avenida de la Ciencia 87, Valencia, España",
+                "linkedin": "https://www.linkedin.com/in/luciamartinez/"
             },
             "experiencia": [
                 {
-                    "empresa": "Global Solutions",
-                    "puesto": "Coordinadora de Proyectos",
-                    "duracion": "3 años",
+                    "empresa": "Data Insights",
+                    "puesto": "Analista de Datos Senior",
+                    "duracion": "4 años",
                     "responsabilidades": [
-                        "Coordinación de equipos multidisciplinarios para proyectos internacionales.",
-                        "Gestión de cronogramas, recursos y presupuestos.",
-                        "Comunicación constante con stakeholders y reporte de avances."
+                        "Análisis y visualización de datos para la toma de decisiones.",
+                        "Desarrollo de modelos predictivos.",
+                        "Colaboración con equipos de marketing para optimizar campañas."
                     ],
                     "logros": [
-                        "Lideró un proyecto de implementación ERP que fue entregado antes de tiempo y bajo presupuesto.",
-                        "Mejoró la satisfacción del cliente en un 25% a través de una gestión eficiente de recursos."
+                        "Implementación de un sistema de reporting que redujo el tiempo de análisis en un 50%.",
+                        "Desarrollo de un modelo que incrementó la conversión de clientes en un 30%."
                     ]
                 },
                 {
-                    "empresa": "Innovative Solutions",
-                    "puesto": "Asistente de Gerente de Proyectos",
+                    "empresa": "FinTech Solutions",
+                    "puesto": "Analista de Datos",
                     "duracion": "2 años",
                     "responsabilidades": [
-                        "Asistencia en la planificación y seguimiento de proyectos de tecnología.",
-                        "Creación de reportes de estado y documentación de proyectos.",
-                        "Apoyo en la gestión de riesgos y resolución de problemas."
+                        "Recolección y limpieza de datos.",
+                        "Análisis de tendencias del mercado.",
+                        "Preparación de informes mensuales de desempeño."
                     ],
                     "logros": [
-                        "Desarrolló una plantilla de informes de estado que mejoró la comunicación con clientes.",
-                        "Contribuyó a la entrega exitosa de un proyecto de transformación digital para un cliente clave."
+                        "Identificación de patrones que llevaron a una mejora del 20% en la estrategia comercial.",
+                        "Desarrollo de dashboards interactivos para la visualización de datos."
                     ]
                 }
             ],
             "habilidades": [
                 {
-                    "habilidad": "Gestión de Proyectos",
+                    "habilidad": "SQL",
                     "nivel": "Avanzado",
                     "anios_experiencia": 5
                 },
                 {
-                    "habilidad": "Metodologías Ágiles (Scrum, Kanban)",
-                    "nivel": "Bajo",
-                    "anios_experiencia": 4
-                },
-                {
-                    "habilidad": "Microsoft Project",
+                    "habilidad": "Python",
                     "nivel": "Intermedio",
                     "anios_experiencia": 3
                 },
                 {
-                    "habilidad": "Gestión de Riesgos",
+                    "habilidad": "Tableau",
                     "nivel": "Avanzado",
-                    "anios_experiencia": 5
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Excel",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 6
+                },
+                {
+                    "habilidad": "R",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 2
                 }
             ],
             "educacion": [
                 {
-                    "grado": "Licenciatura en Administración de Empresas",
-                    "institucion": "Universidad Complutense de Madrid",
-                    "ano_graduacion": 2015,
+                    "grado": "Grado en Estadística",
+                    "institucion": "Universidad Politécnica de Valencia",
+                    "ano_graduacion": 2018,
                     "logros_academicos": [
-                        "Premio al Mejor Proyecto de Fin de Grado.",
-                        "Becaria de Excelencia durante tres años consecutivos."
+                        "Premio al Mejor Proyecto de Investigación."
                     ]
                 }
             ],
             "certificaciones": [
                 {
-                    "certificacion": "Project Management Professional (PMP)",
-                    "institucion": "Project Management Institute",
-                    "ano_obtencion": 2018
+                    "certificacion": "Data Science Professional Certificate",
+                    "institucion": "edX",
+                    "ano_obtencion": 2021
                 },
                 {
-                    "certificacion": "Certified ScrumMaster (CSM)",
-                    "institucion": "Scrum Alliance",
-                    "ano_obtencion": 2019
+                    "certificacion": "Tableau Desktop Specialist",
+                    "institucion": "Tableau",
+                    "ano_obtencion": 2020
                 }
             ],
             "idiomas": [
@@ -94,30 +98,145 @@
                 {
                     "idioma": "Inglés",
                     "nivel": "Avanzado"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Alberto Sánchez",
+                    "relacion": "Gerente de Análisis en Data Insights",
+                    "contacto": "alberto.sanchez@datainsights.com"
                 },
                 {
-                    "idioma": "Francés",
+                    "nombre": "Marta López",
+                    "relacion": "Director de Finanzas en FinTech Solutions",
+                    "contacto": "marta.lopez@fintechsolutions.com"
+                }
+            ],
+            "intereses": [
+                "Análisis de datos",
+                "Inteligencia artificial",
+                "Visualización de datos",
+                "Economía del comportamiento"
+            ]
+        },        
+        {
+            "id": 1,
+            "nombre": "Martín Rodríguez Vargas",
+            "puesto_aplicado": "Administrador de Sistemas",
+            "informacion_contacto": {
+                "correo_electronico": "martin.rodriguez@example.com",
+                "telefono": "+34 654 789 123",
+                "direccion": "Calle de la Innovación 45, Bilbao, España",
+                "linkedin": "https://www.linkedin.com/in/martinrodriguez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "Tech Solutions",
+                    "puesto": "Administrador de Sistemas Senior",
+                    "duracion": "5 años",
+                    "responsabilidades": [
+                        "Gestión y mantenimiento de servidores y redes.",
+                        "Implementación de políticas de seguridad de la información.",
+                        "Resolución de incidencias y soporte técnico a usuarios."
+                    ],
+                    "logros": [
+                        "Reducción del tiempo de inactividad de los servidores en un 30%.",
+                        "Desarrollo de un sistema de respaldo que mejora la recuperación de datos."
+                    ]
+                },
+                {
+                    "empresa": "Global IT Services",
+                    "puesto": "Técnico de Soporte",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Instalación y configuración de software y hardware.",
+                        "Asistencia técnica y capacitación a usuarios.",
+                        "Mantenimiento preventivo y correctivo de equipos."
+                    ],
+                    "logros": [
+                        "Mejora de la satisfacción del usuario en un 20% mediante un servicio técnico proactivo.",
+                        "Implementación de un sistema de tickets que optimizó la gestión de incidencias."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Administración de Servidores Linux",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Windows Server",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Virtualización (VMware, Hyper-V)",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Seguridad Informática",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Networking (TCP/IP, DNS, DHCP)",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Ingeniería de Sistemas",
+                    "institucion": "Universidad de Bilbao",
+                    "ano_graduacion": 2017,
+                    "logros_academicos": [
+                        "Premio al Mejor Proyecto de Infraestructura de Redes."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Microsoft Certified: Azure Administrator Associate",
+                    "institucion": "Microsoft",
+                    "ano_obtencion": 2021
+                },
+                {
+                    "certificacion": "CompTIA Security+",
+                    "institucion": "CompTIA",
+                    "ano_obtencion": 2020
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
                     "nivel": "Intermedio"
                 }
             ],
             "referencias": [
                 {
-                    "nombre": "Laura Fernández",
-                    "relacion": "Gerente Directa en Global Solutions",
-                    "contacto": "laura.fernandez@example.com"
+                    "nombre": "Carlos López",
+                    "relacion": "Gerente de IT en Tech Solutions",
+                    "contacto": "carlos.lopez@techsolutions.com"
                 },
                 {
-                    "nombre": "Roberto Sánchez",
-                    "relacion": "Colega en Innovative Solutions",
-                    "contacto": "roberto.sanchez@example.com"
+                    "nombre": "Ana Pérez",
+                    "relacion": "Supervisor en Global IT Services",
+                    "contacto": "ana.perez@globalit.com"
                 }
             ],
             "intereses": [
-                "Transformación Digital",
-                "Desarrollo de Liderazgo",
-                "Metodologías de Innovación"
+                "Infraestructura de redes",
+                "Ciberseguridad",
+                "Nuevas tecnologías",
+                "Automatización de procesos"
             ]
-        },
+        },        
         {
             "id": 2,
             "nombre": "Juan Esteban Villamizar Sierra",
@@ -353,6 +472,1518 @@
                 "Seguridad en aplicaciones web",
                 "Desarrollo y optimización de APIs"
             ]
-        }
+        },
+        {
+            "id": 3,
+            "nombre": "Carlos Eduardo Ramírez García",
+            "puesto_aplicado": "Desarrollador Backend",
+            "informacion_contacto": {
+                "correo_electronico": "carlos.ramirez@example.com",
+                "telefono": "+34 612 345 678",
+                "direccion": "Calle Falsa 123, Barcelona, España",
+                "linkedin": "https://www.linkedin.com/in/carlosramirez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "Tech Innovations",
+                    "puesto": "Desarrollador Backend",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Diseño y desarrollo de APIs REST.",
+                        "Optimización de consultas en bases de datos.",
+                        "Desarrollo de sistemas de autenticación y seguridad."
+                    ],
+                    "logros": [
+                        "Reducción del tiempo de respuesta de APIs en un 40%.",
+                        "Implementación de un sistema de autenticación robusto."
+                    ]
+                },
+                {
+                    "empresa": "DataSolutions",
+                    "puesto": "Ingeniero de Datos",
+                    "duracion": "1 año",
+                    "responsabilidades": [
+                        "Integración y manipulación de grandes volúmenes de datos.",
+                        "Creación de scripts para automatización de procesos de datos.",
+                        "Generación de reportes de análisis."
+                    ],
+                    "logros": [
+                        "Desarrollo de un proceso de ETL que redujo el tiempo de carga de datos en un 50%.",
+                        "Automatización de reportes para el equipo de ventas."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Python",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "SQL",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Django",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "JavaScript",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Licenciatura en Ciencias de la Computación",
+                    "institucion": "Universidad de Barcelona",
+                    "ano_graduacion": 2018,
+                    "logros_academicos": [
+                        "Graduado con honores."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Certificación en Desarrollo Web",
+                    "institucion": "Coursera",
+                    "ano_obtencion": 2020
+                },
+                {
+                    "certificacion": "Python para Data Science",
+                    "institucion": "edX",
+                    "ano_obtencion": 2019
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Andrea Pérez López",
+                    "relacion": "Líder de Proyecto en Tech Innovations",
+                    "contacto": "andrea.perez@techinnovations.com"
+                },
+                {
+                    "nombre": "Manuel Gutiérrez",
+                    "relacion": "Gerente en DataSolutions",
+                    "contacto": "manuel.gutierrez@datasolutions.com"
+                }
+            ],
+            "intereses": [
+                "Inteligencia Artificial",
+                "Desarrollo de APIs",
+                "Big Data y Análisis de Datos",
+                "Automatización de procesos"
+            ]
+        }, 
+        {
+            "id": 4,
+            "nombre": "Lucía Fernández Pérez",
+            "puesto_aplicado": "Ingeniera de Software",
+            "informacion_contacto": {
+                "correo_electronico": "lucia.fernandez@example.com",
+                "telefono": "+34 600 789 012",
+                "direccion": "Calle Mayor 456, Valencia, España",
+                "linkedin": "https://www.linkedin.com/in/luciafernandez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "TechNova Solutions",
+                    "puesto": "Ingeniera de Software",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Desarrollo de aplicaciones web con React y Node.js.",
+                        "Implementación de mejoras de rendimiento.",
+                        "Mantenimiento de bases de datos SQL."
+                    ],
+                    "logros": [
+                        "Aumento de la eficiencia de la aplicación en un 30%.",
+                        "Reducción de errores del sistema en un 20%."
+                    ]
+                },
+                {
+                    "empresa": "Innovatech",
+                    "puesto": "Desarrolladora Front-End",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Desarrollo de interfaces de usuario con React.",
+                        "Optimización de la experiencia del usuario.",
+                        "Colaboración en el diseño de UI/UX."
+                    ],
+                    "logros": [
+                        "Implementación de un nuevo diseño que mejoró la retención de usuarios en un 15%.",
+                        "Mejoras en la accesibilidad del sitio web."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "React",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Node.js",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "SQL",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "HTML/CSS",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Ingeniería Informática",
+                    "institucion": "Universidad Politécnica de Valencia",
+                    "ano_graduacion": 2019,
+                    "logros_academicos": [
+                        "Finalista en la Competencia de Proyectos Universitarios de Software."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Certificación en JavaScript",
+                    "institucion": "Codecademy",
+                    "ano_obtencion": 2018
+                },
+                {
+                    "certificacion": "Desarrollo Avanzado con React",
+                    "institucion": "Coursera",
+                    "ano_obtencion": 2020
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Avanzado"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Roberto Martínez",
+                    "relacion": "Gerente de Proyectos en TechNova Solutions",
+                    "contacto": "roberto.martinez@technovasolutions.com"
+                },
+                {
+                    "nombre": "Laura Gómez",
+                    "relacion": "Directora de Desarrollo en Innovatech",
+                    "contacto": "laura.gomez@innovatech.com"
+                }
+            ],
+            "intereses": [
+                "Desarrollo de aplicaciones web",
+                "Arquitectura de microservicios",
+                "Machine Learning",
+                "Metodologías Ágiles"
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "Martín López Ruiz",
+            "puesto_aplicado": "Ingeniero de Datos",
+            "informacion_contacto": {
+                "correo_electronico": "martin.lopez@example.com",
+                "telefono": "+34 611 456 789",
+                "direccion": "Paseo del Río 789, Sevilla, España",
+                "linkedin": "https://www.linkedin.com/in/martinlopez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "DataCorp",
+                    "puesto": "Ingeniero de Datos",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Desarrollo y mantenimiento de pipelines de datos.",
+                        "Implementación de soluciones en la nube con AWS.",
+                        "Optimización de almacenamiento de datos."
+                    ],
+                    "logros": [
+                        "Reducción de costos de almacenamiento en un 25% mediante optimización de bases de datos.",
+                        "Implementación de un sistema ETL que mejoró el procesamiento de datos en un 30%."
+                    ]
+                },
+                {
+                    "empresa": "TechAnalytics",
+                    "puesto": "Analista de Datos",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Análisis de grandes volúmenes de datos para la toma de decisiones.",
+                        "Creación de visualizaciones de datos en Power BI.",
+                        "Colaboración con equipos de desarrollo para mejorar la gestión de datos."
+                    ],
+                    "logros": [
+                        "Creación de dashboards interactivos que mejoraron la eficiencia de reportes.",
+                        "Automatización de reportes mensuales, reduciendo el tiempo de preparación en un 40%."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Python",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "SQL",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Power BI",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "AWS",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 2
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Licenciatura en Matemáticas Aplicadas",
+                    "institucion": "Universidad de Sevilla",
+                    "ano_graduacion": 2016,
+                    "logros_academicos": [
+                        "Graduado con mención de honor."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Certificación en AWS Solutions Architect",
+                    "institucion": "Amazon Web Services",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "Especialización en Ciencia de Datos",
+                    "institucion": "Coursera",
+                    "ano_obtencion": 2018
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Alberto Díaz",
+                    "relacion": "Director de Tecnología en DataCorp",
+                    "contacto": "alberto.diaz@datacorp.com"
+                },
+                {
+                    "nombre": "Silvia Morales",
+                    "relacion": "Jefa de Análisis en TechAnalytics",
+                    "contacto": "silvia.morales@techanalytics.com"
+                }
+            ],
+            "intereses": [
+                "Ciencia de datos",
+                "Inteligencia Artificial",
+                "Arquitectura de sistemas en la nube",
+                "Optimización de procesos de datos"
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Ana María González Rodríguez",
+            "puesto_aplicado": "Especialista en Ciberseguridad",
+            "informacion_contacto": {
+                "correo_electronico": "ana.gonzalez@example.com",
+                "telefono": "+34 699 123 456",
+                "direccion": "Plaza Central 12, Bilbao, España",
+                "linkedin": "https://www.linkedin.com/in/anagonzalez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "CyberSecure Labs",
+                    "puesto": "Especialista en Ciberseguridad",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Monitoreo de amenazas y vulnerabilidades.",
+                        "Implementación de estrategias de seguridad.",
+                        "Realización de auditorías de sistemas y redes."
+                    ],
+                    "logros": [
+                        "Reducción del riesgo de amenazas internas en un 35%.",
+                        "Implementación de un sistema de detección de intrusos que disminuyó los intentos de acceso no autorizado en un 20%."
+                    ]
+                },
+                {
+                    "empresa": "SafeTech Solutions",
+                    "puesto": "Analista de Seguridad de la Información",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Evaluación de riesgos de seguridad en aplicaciones.",
+                        "Desarrollo de políticas de seguridad.",
+                        "Capacitación a empleados en prácticas de ciberseguridad."
+                    ],
+                    "logros": [
+                        "Implementación de políticas de seguridad que redujeron los incidentes en un 25%.",
+                        "Creación de un programa de formación en ciberseguridad para 150 empleados."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Seguridad en redes",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Gestión de riesgos",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Python",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Linux",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 6
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Ingeniería en Sistemas de Información",
+                    "institucion": "Universidad de Deusto",
+                    "ano_graduacion": 2017,
+                    "logros_academicos": [
+                        "Reconocimiento en Seguridad Informática por investigación en criptografía."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Certified Information Systems Security Professional (CISSP)",
+                    "institucion": "ISC2",
+                    "ano_obtencion": 2020
+                },
+                {
+                    "certificacion": "CompTIA Security+",
+                    "institucion": "CompTIA",
+                    "ano_obtencion": 2018
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Francés",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Carlos Mendoza",
+                    "relacion": "Director de Seguridad en CyberSecure Labs",
+                    "contacto": "carlos.mendoza@cybersecurelabs.com"
+                },
+                {
+                    "nombre": "Elena Ruiz",
+                    "relacion": "Gerente de Seguridad en SafeTech Solutions",
+                    "contacto": "elena.ruiz@safetechsolutions.com"
+                }
+            ],
+            "intereses": [
+                "Ciberseguridad y privacidad",
+                "Hacking ético",
+                "Desarrollo seguro de software",
+                "Automatización de pruebas de seguridad"
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "Carlos Andrés Ramírez Torres",
+            "puesto_aplicado": "Arquitecto de Soluciones Cloud",
+            "informacion_contacto": {
+                "correo_electronico": "carlos.ramirez@example.com",
+                "telefono": "+34 612 987 654",
+                "direccion": "Avenida de las Flores 35, Barcelona, España",
+                "linkedin": "https://www.linkedin.com/in/carlosramirez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "CloudWorks",
+                    "puesto": "Arquitecto de Soluciones Cloud",
+                    "duracion": "4 años",
+                    "responsabilidades": [
+                        "Diseño de arquitecturas en la nube utilizando AWS y Azure.",
+                        "Implementación de soluciones escalables y seguras.",
+                        "Supervisión de migraciones de sistemas a la nube."
+                    ],
+                    "logros": [
+                        "Migración exitosa de sistemas para reducir costos en un 30%.",
+                        "Diseño de una arquitectura que soporta más de 1 millón de usuarios simultáneos."
+                    ]
+                },
+                {
+                    "empresa": "TechWave Solutions",
+                    "puesto": "Ingeniero DevOps",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Automatización de procesos de despliegue.",
+                        "Monitoreo y optimización de infraestructura en la nube.",
+                        "Implementación de prácticas CI/CD."
+                    ],
+                    "logros": [
+                        "Reducción del tiempo de despliegue en un 50% mediante automatización.",
+                        "Creación de una estrategia de monitoreo que disminuyó los tiempos de respuesta en un 20%."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "AWS",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Azure",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Terraform",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Kubernetes",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Máster en Arquitectura de Sistemas Cloud",
+                    "institucion": "Universidad Autónoma de Barcelona",
+                    "ano_graduacion": 2018,
+                    "logros_academicos": [
+                        "Proyecto final galardonado por soluciones innovadoras en arquitectura de nube."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "AWS Certified Solutions Architect",
+                    "institucion": "Amazon Web Services",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "Microsoft Certified: Azure Solutions Architect Expert",
+                    "institucion": "Microsoft",
+                    "ano_obtencion": 2020
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Alemán",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Isabel Martín",
+                    "relacion": "Directora de Arquitectura en CloudWorks",
+                    "contacto": "isabel.martin@cloudworks.com"
+                },
+                {
+                    "nombre": "Mario González",
+                    "relacion": "Gerente de DevOps en TechWave Solutions",
+                    "contacto": "mario.gonzalez@techwave.com"
+                }
+            ],
+            "intereses": [
+                "Computación en la nube",
+                "Infraestructura como código",
+                "Automatización de despliegues",
+                "Soluciones multicloud"
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Laura Fernández Muñoz",
+            "puesto_aplicado": "Analista de Datos",
+            "informacion_contacto": {
+                "correo_electronico": "laura.fernandez@example.com",
+                "telefono": "+34 622 123 456",
+                "direccion": "Calle Gran Vía 101, Valencia, España",
+                "linkedin": "https://www.linkedin.com/in/laurafernandez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "DataWise Solutions",
+                    "puesto": "Analista de Datos",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Extracción y limpieza de datos.",
+                        "Creación de visualizaciones en Tableau y Power BI.",
+                        "Análisis de patrones de comportamiento del cliente."
+                    ],
+                    "logros": [
+                        "Identificación de oportunidades de negocio que incrementaron las ventas en un 15%.",
+                        "Automatización de procesos de limpieza de datos, reduciendo el tiempo en un 40%."
+                    ]
+                },
+                {
+                    "empresa": "Insight Analytics",
+                    "puesto": "Asistente de Análisis de Datos",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Soporte en la elaboración de informes de datos.",
+                        "Realización de consultas SQL para reportes personalizados.",
+                        "Análisis y reporte de KPIs de rendimiento."
+                    ],
+                    "logros": [
+                        "Creación de un sistema de reportes automatizado que mejoró la precisión de los informes.",
+                        "Desarrollo de una métrica clave que optimizó el rendimiento del equipo de ventas."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "SQL",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Tableau",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Python",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 2
+                },
+                {
+                    "habilidad": "Power BI",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Estadística Aplicada",
+                    "institucion": "Universidad de Valencia",
+                    "ano_graduacion": 2016,
+                    "logros_academicos": [
+                        "Premio al Mejor Trabajo de Fin de Grado en Análisis Predictivo."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Data Analyst Associate",
+                    "institucion": "Microsoft",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "Tableau Desktop Specialist",
+                    "institucion": "Tableau",
+                    "ano_obtencion": 2020
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Avanzado"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Miguel López",
+                    "relacion": "Gerente de Proyectos en DataWise Solutions",
+                    "contacto": "miguel.lopez@datawise.com"
+                },
+                {
+                    "nombre": "Andrea Ruiz",
+                    "relacion": "Líder de Análisis en Insight Analytics",
+                    "contacto": "andrea.ruiz@insightanalytics.com"
+                }
+            ],
+            "intereses": [
+                "Análisis predictivo",
+                "Machine Learning",
+                "Visualización de datos",
+                "Modelado estadístico"
+            ]
+        },
+        {
+            "id": 9,
+            "nombre": "Fernando Javier Pérez Sánchez",
+            "puesto_aplicado": "Desarrollador de Aplicaciones Móviles",
+            "informacion_contacto": {
+                "correo_electronico": "fernando.perez@example.com",
+                "telefono": "+34 611 345 678",
+                "direccion": "Calle de la Paz 25, Sevilla, España",
+                "linkedin": "https://www.linkedin.com/in/fernandoperez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "AppSolutions",
+                    "puesto": "Desarrollador Móvil Senior",
+                    "duracion": "4 años",
+                    "responsabilidades": [
+                        "Desarrollo de aplicaciones móviles para iOS y Android.",
+                        "Colaboración con diseñadores para crear interfaces intuitivas.",
+                        "Optimización del rendimiento de las aplicaciones."
+                    ],
+                    "logros": [
+                        "Lideré el desarrollo de una aplicación que alcanzó 100,000 descargas en el primer mes.",
+                        "Implementé mejoras que aumentaron la calificación de la app en 1.5 estrellas."
+                    ]
+                },
+                {
+                    "empresa": "TechMobile Inc.",
+                    "puesto": "Desarrollador Móvil",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Mantenimiento y actualización de aplicaciones existentes.",
+                        "Implementación de nuevas características según los requisitos del cliente.",
+                        "Pruebas y depuración de aplicaciones."
+                    ],
+                    "logros": [
+                        "Reducción de errores en un 30% mediante una mejor gestión de pruebas.",
+                        "Contribuí al lanzamiento de una aplicación que recibió reconocimiento en medios locales."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Swift",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Kotlin",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Java",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "React Native",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 2
+                },
+                {
+                    "habilidad": "Flutter",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 1
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Ingeniería Informática",
+                    "institucion": "Universidad de Sevilla",
+                    "ano_graduacion": 2016,
+                    "logros_academicos": [
+                        "Premio a la Mejor Innovación en Aplicaciones Móviles."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Google Associate Android Developer",
+                    "institucion": "Google",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "iOS App Development",
+                    "institucion": "Udemy",
+                    "ano_obtencion": 2020
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Clara Ruiz",
+                    "relacion": "Gerente de Desarrollo en AppSolutions",
+                    "contacto": "clara.ruiz@appsolutions.com"
+                },
+                {
+                    "nombre": "Luis Fernández",
+                    "relacion": "Director Técnico en TechMobile Inc.",
+                    "contacto": "luis.fernandez@techmobile.com"
+                }
+            ],
+            "intereses": [
+                "Desarrollo de aplicaciones móviles",
+                "Inteligencia artificial",
+                "Tecnologías de la información",
+                "Experiencia de usuario"
+            ]
+        },
+        {
+            "id": 10,
+            "nombre": "Sofía Gómez Torres",
+            "puesto_aplicado": "Diseñadora UX/UI",
+            "informacion_contacto": {
+                "correo_electronico": "sofia.gomez@example.com",
+                "telefono": "+34 623 456 789",
+                "direccion": "Calle del Sol 18, Málaga, España",
+                "linkedin": "https://www.linkedin.com/in/sofiagomez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "Creativa Studio",
+                    "puesto": "Diseñadora UX/UI",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Investigación de usuarios y creación de personas.",
+                        "Diseño de wireframes y prototipos interactivos.",
+                        "Colaboración con equipos de desarrollo para implementar diseños."
+                    ],
+                    "logros": [
+                        "Desarrollo de una plataforma que aumentó la satisfacción del usuario en un 40%.",
+                        "Participación en un proyecto que ganó un premio de diseño internacional."
+                    ]
+                },
+                {
+                    "empresa": "Digital Design Co.",
+                    "puesto": "Asistente de Diseño UX",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Asistencia en la creación de diseños gráficos y de interfaz.",
+                        "Realización de pruebas de usabilidad.",
+                        "Análisis de feedback de usuarios para mejorar los diseños."
+                    ],
+                    "logros": [
+                        "Implementación de cambios que aumentaron la retención de usuarios en un 25%.",
+                        "Contribución a la creación de un sistema de diseño que estandarizó el trabajo del equipo."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Diseño de Interacción",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Prototipado (Figma, Sketch)",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Investigación de Usuarios",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Adobe Creative Suite",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Diseño Gráfico",
+                    "institucion": "Universidad de Málaga",
+                    "ano_graduacion": 2018,
+                    "logros_academicos": [
+                        "Premio a la Mejor Tesis en Diseño de Interacción."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "UX Design Professional Certificate",
+                    "institucion": "Coursera",
+                    "ano_obtencion": 2020
+                },
+                {
+                    "certificacion": "Certified Usability Analyst (CUA)",
+                    "institucion": "Human Factors International",
+                    "ano_obtencion": 2021
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Avanzado"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Javier Muñoz",
+                    "relacion": "Director Creativo en Creativa Studio",
+                    "contacto": "javier.munoz@creativastudio.com"
+                },
+                {
+                    "nombre": "Claudia Serrano",
+                    "relacion": "Líder de Diseño en Digital Design Co.",
+                    "contacto": "claudia.serrano@digitaldesignco.com"
+                }
+            ],
+            "intereses": [
+                "Diseño centrado en el usuario",
+                "Investigación en usabilidad",
+                "Tendencias en diseño digital",
+                "Arte y creatividad"
+            ]
+        },
+        {
+            "id": 11,
+            "nombre": "Fernando Pérez Ruiz",
+            "puesto_aplicado": "Ingeniero de Software",
+            "informacion_contacto": {
+                "correo_electronico": "fernando.perez@example.com",
+                "telefono": "+34 912 345 678",
+                "direccion": "Calle de la Innovación 24, Sevilla, España",
+                "linkedin": "https://www.linkedin.com/in/fernandoperez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "InovaTech",
+                    "puesto": "Ingeniero de Software Senior",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Diseño y desarrollo de aplicaciones web.",
+                        "Colaboración en el ciclo de vida del desarrollo de software.",
+                        "Optimización del rendimiento de aplicaciones existentes."
+                    ],
+                    "logros": [
+                        "Lideró el desarrollo de una plataforma de gestión que aumentó la eficiencia operativa en un 35%.",
+                        "Implementó mejoras que redujeron los tiempos de carga en un 50%."
+                    ]
+                },
+                {
+                    "empresa": "SoftDev Solutions",
+                    "puesto": "Desarrollador Junior",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Desarrollo de funciones para aplicaciones web.",
+                        "Asistencia en la depuración y mantenimiento de software.",
+                        "Participación en revisiones de código."
+                    ],
+                    "logros": [
+                        "Desarrolló un módulo de informes que mejoró la usabilidad del sistema.",
+                        "Contribuyó a la entrega puntual de un proyecto importante."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "JavaScript",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Java",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Node.js",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "React",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "SQL",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Ingeniería Informática",
+                    "institucion": "Universidad de Sevilla",
+                    "ano_graduacion": 2019,
+                    "logros_academicos": [
+                        "Reconocimiento por el Mejor Proyecto Final."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Oracle Certified Associate, Java SE 8 Programmer",
+                    "institucion": "Oracle",
+                    "ano_obtencion": 2020
+                },
+                {
+                    "certificacion": "JavaScript Algorithms and Data Structures Certification",
+                    "institucion": "freeCodeCamp",
+                    "ano_obtencion": 2021
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Laura Fernández",
+                    "relacion": "Gerente de Proyectos en InovaTech",
+                    "contacto": "laura.fernandez@inovatech.com"
+                },
+                {
+                    "nombre": "Diego Torres",
+                    "relacion": "Supervisor en SoftDev Solutions",
+                    "contacto": "diego.torres@softdev.com"
+                }
+            ],
+            "intereses": [
+                "Desarrollo ágil",
+                "Inteligencia artificial",
+                "Sistemas distribuidos",
+                "Participación en hackathons"
+            ]
+        },
+        {
+            "id": 12,
+            "nombre": "Sofía Gómez Castro",
+            "puesto_aplicado": "Diseñadora UX/UI",
+            "informacion_contacto": {
+                "correo_electronico": "sofia.gomez@example.com",
+                "telefono": "+34 665 432 109",
+                "direccion": "Calle de la Creatividad 10, Málaga, España",
+                "linkedin": "https://www.linkedin.com/in/sofiagomez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "Creativa Studio",
+                    "puesto": "Diseñadora UX/UI Senior",
+                    "duracion": "4 años",
+                    "responsabilidades": [
+                        "Diseño de interfaces y experiencias de usuario.",
+                        "Investigación de usuarios y pruebas de usabilidad.",
+                        "Colaboración con desarrolladores para la implementación de diseños."
+                    ],
+                    "logros": [
+                        "Rediseñó una aplicación que aumentó la satisfacción del usuario en un 40%.",
+                        "Desarrolló un prototipo que facilitó la obtención de financiación para un nuevo proyecto."
+                    ]
+                },
+                {
+                    "empresa": "WebDesign Co.",
+                    "puesto": "Diseñadora Junior",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Creación de wireframes y mockups.",
+                        "Asistencia en la investigación de mercado.",
+                        "Colaboración en la producción de contenido visual."
+                    ],
+                    "logros": [
+                        "Contribuyó a un aumento del 30% en las conversiones a través de mejoras en la interfaz de usuario.",
+                        "Participó en un proyecto que ganó un premio de diseño local."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Diseño de Interfaces (UI)",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Investigación de Usuarios",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Prototipado (Figma, Adobe XD)",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "HTML/CSS",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Photoshop",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Diseño Gráfico",
+                    "institucion": "Escuela de Arte de Málaga",
+                    "ano_graduacion": 2018,
+                    "logros_academicos": [
+                        "Premio a la Mejor Innovación en Diseño."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Certified UX Designer",
+                    "institucion": "Interaction Design Foundation",
+                    "ano_obtencion": 2020
+                },
+                {
+                    "certificacion": "Adobe Certified Expert (ACE) - Photoshop",
+                    "institucion": "Adobe",
+                    "ano_obtencion": 2021
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Roberto Fernández",
+                    "relacion": "Director Creativo en Creativa Studio",
+                    "contacto": "roberto.fernandez@creativastudio.com"
+                },
+                {
+                    "nombre": "Ana Torres",
+                    "relacion": "Gerente de Proyectos en WebDesign Co.",
+                    "contacto": "ana.torres@webdesignco.com"
+                }
+            ],
+            "intereses": [
+                "Diseño inclusivo",
+                "Tendencias en diseño",
+                "Desarrollo de productos digitales",
+                "Arte contemporáneo"
+            ]
+        },
+        {
+            "id": 13,
+            "nombre": "Andrés López Martínez",
+            "puesto_aplicado": "Administrador de Sistemas",
+            "informacion_contacto": {
+                "correo_electronico": "andres.lopez@example.com",
+                "telefono": "+34 698 765 432",
+                "direccion": "Calle de la Tecnología 55, Bilbao, España",
+                "linkedin": "https://www.linkedin.com/in/andreslopez/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "Tech Solutions",
+                    "puesto": "Administrador de Sistemas Senior",
+                    "duracion": "5 años",
+                    "responsabilidades": [
+                        "Gestión y mantenimiento de servidores y redes.",
+                        "Implementación de políticas de seguridad.",
+                        "Resolución de incidencias técnicas."
+                    ],
+                    "logros": [
+                        "Reducción del tiempo de inactividad del sistema en un 30% mediante mejoras proactivas.",
+                        "Desarrollo de un sistema de backup que incrementó la seguridad de datos."
+                    ]
+                },
+                {
+                    "empresa": "NetWork Corp",
+                    "puesto": "Técnico de Soporte",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Soporte técnico a usuarios finales.",
+                        "Instalación y configuración de hardware y software.",
+                        "Capacitación a usuarios en el uso de sistemas."
+                    ],
+                    "logros": [
+                        "Mejoró la satisfacción del cliente en un 25% a través de un soporte efectivo.",
+                        "Automatizó procesos de instalación que redujeron el tiempo de despliegue en un 40%."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Linux",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 6
+                },
+                {
+                    "habilidad": "Windows Server",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Seguridad Informática",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "Virtualización (VMware, Hyper-V)",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Networking",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Ingeniería de Sistemas",
+                    "institucion": "Universidad de Bilbao",
+                    "ano_graduacion": 2016,
+                    "logros_academicos": [
+                        "Premio al Mejor Proyecto en Redes."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "CompTIA Network+",
+                    "institucion": "CompTIA",
+                    "ano_obtencion": 2017
+                },
+                {
+                    "certificacion": "Certified Information Systems Security Professional (CISSP)",
+                    "institucion": "ISC²",
+                    "ano_obtencion": 2019
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Intermedio"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Carlos Ramírez",
+                    "relacion": "Gerente de IT en Tech Solutions",
+                    "contacto": "carlos.ramirez@techsolutions.com"
+                },
+                {
+                    "nombre": "Elena Jiménez",
+                    "relacion": "Coordinadora de Proyectos en NetWork Corp",
+                    "contacto": "elena.jimenez@networkcorp.com"
+                }
+            ],
+            "intereses": [
+                "Nuevas tecnologías",
+                "Seguridad cibernética",
+                "Optimización de sistemas",
+                "Cloud computing"
+            ]
+        },
+        {
+            "id": 14,
+            "nombre": "Valeria Ruiz Ortega",
+            "puesto_aplicado": "Analista de Datos",
+            "informacion_contacto": {
+                "correo_electronico": "valeria.ruiz@example.com",
+                "telefono": "+34 622 998 776",
+                "direccion": "Avenida de la Información 12, Valencia, España",
+                "linkedin": "https://www.linkedin.com/in/valeriaruiz/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "Data Insights",
+                    "puesto": "Analista de Datos Senior",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Análisis de grandes volúmenes de datos para obtener información útil.",
+                        "Creación de informes y dashboards interactivos.",
+                        "Colaboración con equipos interfuncionales para mejorar la toma de decisiones."
+                    ],
+                    "logros": [
+                        "Desarrolló un modelo de predicción que aumentó las ventas en un 20%.",
+                        "Implementó mejoras en los procesos de análisis que redujeron el tiempo de entrega de informes en un 50%."
+                    ]
+                },
+                {
+                    "empresa": "InfoTech Solutions",
+                    "puesto": "Asistente de Análisis de Datos",
+                    "duracion": "2 años",
+                    "responsabilidades": [
+                        "Recolección y limpieza de datos.",
+                        "Asistencia en la creación de informes y presentaciones.",
+                        "Participación en la investigación de tendencias de mercado."
+                    ],
+                    "logros": [
+                        "Contribuyó a la optimización de procesos que mejoraron la calidad de los datos.",
+                        "Desarrolló un sistema de seguimiento de métricas que mejoró la visibilidad de los resultados."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Análisis de Datos",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Python",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "SQL",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Tableau",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 2
+                },
+                {
+                    "habilidad": "Excel",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Estadística",
+                    "institucion": "Universidad de Valencia",
+                    "ano_graduacion": 2018,
+                    "logros_academicos": [
+                        "Mención de Honor por el Mejor Proyecto de Análisis de Datos."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Data Science Professional Certificate",
+                    "institucion": "edX",
+                    "ano_obtencion": 2020
+                },
+                {
+                    "certificacion": "Google Data Analytics Professional Certificate",
+                    "institucion": "Google",
+                    "ano_obtencion": 2021
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Avanzado"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "José Manuel González",
+                    "relacion": "Gerente de Proyectos en Data Insights",
+                    "contacto": "jose.gonzalez@datainsights.com"
+                },
+                {
+                    "nombre": "Ana Beatriz López",
+                    "relacion": "Coordinadora de Análisis en InfoTech Solutions",
+                    "contacto": "ana.lopez@infotech.com"
+                }
+            ],
+            "intereses": [
+                "Ciencia de datos",
+                "Machine Learning",
+                "Visualización de datos",
+                "Desarrollo de habilidades analíticas"
+            ]
+        },
+        {
+            "id": 17,
+            "nombre": "Miguel Ángel Torres Sánchez",
+            "puesto_aplicado": "Ingeniero de Software",
+            "informacion_contacto": {
+                "correo_electronico": "miguel.torres@example.com",
+                "telefono": "+34 645 123 456",
+                "direccion": "Calle del Desarrollo 23, Sevilla, España",
+                "linkedin": "https://www.linkedin.com/in/miguelangel-torres/"
+            },
+            "experiencia": [
+                {
+                    "empresa": "SoftTech Innovations",
+                    "puesto": "Ingeniero de Software Senior",
+                    "duracion": "4 años",
+                    "responsabilidades": [
+                        "Diseño y desarrollo de aplicaciones web y móviles.",
+                        "Implementación de APIs RESTful.",
+                        "Colaboración con equipos multidisciplinarios para la mejora continua del software."
+                    ],
+                    "logros": [
+                        "Lideró un equipo que desarrolló una aplicación galardonada por su usabilidad.",
+                        "Redució el tiempo de carga de la aplicación en un 35% mediante optimización del código."
+                    ]
+                },
+                {
+                    "empresa": "TechMasters",
+                    "puesto": "Desarrollador de Software",
+                    "duracion": "3 años",
+                    "responsabilidades": [
+                        "Desarrollo de soluciones de software a medida.",
+                        "Mantenimiento y actualización de aplicaciones existentes.",
+                        "Realización de pruebas unitarias y de integración."
+                    ],
+                    "logros": [
+                        "Implementó mejoras en un sistema que aumentaron la eficiencia operativa en un 25%.",
+                        "Desarrolló un módulo que integró exitosamente con servicios de terceros."
+                    ]
+                }
+            ],
+            "habilidades": [
+                {
+                    "habilidad": "Java",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 6
+                },
+                {
+                    "habilidad": "Python",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 4
+                },
+                {
+                    "habilidad": "JavaScript",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 5
+                },
+                {
+                    "habilidad": "Django",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Angular",
+                    "nivel": "Intermedio",
+                    "anios_experiencia": 3
+                },
+                {
+                    "habilidad": "Git",
+                    "nivel": "Avanzado",
+                    "anios_experiencia": 4
+                }
+            ],
+            "educacion": [
+                {
+                    "grado": "Grado en Ingeniería Informática",
+                    "institucion": "Universidad de Sevilla",
+                    "ano_graduacion": 2017,
+                    "logros_academicos": [
+                        "Premio al Mejor Proyecto de Fin de Carrera."
+                    ]
+                }
+            ],
+            "certificaciones": [
+                {
+                    "certificacion": "Oracle Certified Professional, Java SE 11 Developer",
+                    "institucion": "Oracle",
+                    "ano_obtencion": 2019
+                },
+                {
+                    "certificacion": "Microsoft Certified: Azure Developer Associate",
+                    "institucion": "Microsoft",
+                    "ano_obtencion": 2021
+                }
+            ],
+            "idiomas": [
+                {
+                    "idioma": "Español",
+                    "nivel": "Avanzado"
+                },
+                {
+                    "idioma": "Inglés",
+                    "nivel": "Avanzado"
+                }
+            ],
+            "referencias": [
+                {
+                    "nombre": "Laura Martínez",
+                    "relacion": "Directora de Proyectos en SoftTech Innovations",
+                    "contacto": "laura.martinez@softtechinnovations.com"
+                },
+                {
+                    "nombre": "Fernando Pérez",
+                    "relacion": "Gerente de Desarrollo en TechMasters",
+                    "contacto": "fernando.perez@techmasters.com"
+                }
+            ],
+            "intereses": [
+                "Desarrollo de software ágil",
+                "Inteligencia artificial",
+                "Arquitectura de software",
+                "Participación en hackathons"
+            ]
+        }        
     ]
 }
